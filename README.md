@@ -44,6 +44,7 @@ This is a NestJS application optimized for performance and scalability. It uses:
 
 ## Features
 - CRUD operations for users.
+- Zod with swords module.
 - Logging with `nestjs-pino`.
 - Environment variable management with `@nestjs/config`.
 
