@@ -41,12 +41,6 @@ This is a NestJS application optimized for performance and scalability. It uses:
 - **Bun** as the runtime.
 - **SWC** for fast builds.
 
-## Features
-- CRUD operations for users.
-- Zod with swords module.
-- Logging with `nestjs-pino`.
-- Environment variable management with `@nestjs/config`.
-
 ## Prerequisites
 - [Nestjs](https://docs.nestjs.com/)
 - [Zod](https://zod.dev/)
