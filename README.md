@@ -49,13 +49,12 @@ This is a NestJS application optimized for performance and scalability. It uses:
 - [Neon PostgreSQL](https://neon.tech/) account
 
 ## Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Linxier-node/Optimized-nestjs.git
-   cd Optimized-nestjs
-    bun install
-     cp .env.example .env
-   bunx prisma migrate dev --name init
-    bun run start:dev
+```
+1-clone
+2-bun install
+3-bunx prisma init
+4-add db string to .env 
+5-bunx prisma migrate dev --name init
+6-bun run start:dev
+```
 
