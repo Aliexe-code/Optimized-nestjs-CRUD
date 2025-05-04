@@ -32,13 +32,12 @@
   </a>
 </p>
 
-# This repository demonstrates a NestJS application built with [Bun](https://bun.sh/) and Prisma. It includes a **Users** feature that provides REST endpoints for creating, retrieving, updating, and deleting users, along with comprehensive unit and end-to-end tests.
-
-# Optimized NestJS App
 
 This is a NestJS application optimized for performance and scalability. It uses:
 - **Prisma** for database access.
+- **FastifyAdapter** http layer for performance
 - **Neon PostgreSQL** as the database.
+- **Zod** as validation
 - **Bun** as the runtime.
 - **SWC** for fast builds.
 
@@ -49,6 +48,8 @@ This is a NestJS application optimized for performance and scalability. It uses:
 - Environment variable management with `@nestjs/config`.
 
 ## Prerequisites
+- [Nestjs](https://docs.nestjs.com/)
+- [Zod](https://zod.dev/)
 - [Bun](https://bun.sh/) (v1.0.0 or higher)
 - [Node.js](https://nodejs.org/) (v18 or higher)
 - [Neon PostgreSQL](https://neon.tech/) account
