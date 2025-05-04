@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Blade of the Eclipse",
+    "damage": 85,
+    "rarity": "EPIC",
+    "isMagic": true,
+    "enchantments": ["Shadow Strike", "Soul Drain", "Swift Edge"]
+  },
+  {
+    "name": "Emerald Fang",
+    "damage": 45,
+    "rarity": "RARE",
+    "isMagic": false,
+    "enchantments": ["Venom Touch", "Quickstep", "Sharpen"]
+  },
+  {
+    "name": "Flameheart Saber",
+    "damage": 73,
+    "rarity": "LEGENDARY",
+    "isMagic": true,
+    "enchantments": ["Inferno Burst", "Phoenix Flight", "Molten Core"]
+  },
+  {
+    "name": "Whispering Blade",
+    "damage": 40,
+    "rarity": "UNCOMMON",
+    "isMagic": false,
+    "enchantments": ["Silent Step", "Wind Slash", "Agility Boost"]
+  },
+  {
+    "name": "Titansteel Greatsword",
+    "damage": 95,
+    "rarity": "LEGENDARY",
+    "isMagic": false,
+    "enchantments": ["Crushing Blow", "Stone Skin", "Fortify"]
+  },
+  {
+    "name": "Frostbite Shard",
+    "damage": 68,
+    "rarity": "RARE",
+    "isMagic": true,
+    "enchantments": ["Ice Nova", "Frozen Grasp", "Chill Aura"]
+  },
+  {
+    "name": "Sundering Katana",
+    "damage": 60,
+    "rarity": "EPIC",
+    "isMagic": false,
+    "enchantments": ["Armor Break", "Flash Step", "Deadly Precision"]
+  },
+  {
+    "name": "Moonlit Rapier",
+    "damage": 50,
+    "rarity": "COMMON",
+    "isMagic": true,
+    "enchantments": ["Moon Dance", "Piercing Light", "Fleeting Shadow"]
+  }
+]

@@ -1,15 +1,37 @@
+
 generator client {
   provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
 }
-
+/*
+!!prisma commands
+1-bunx prisma init OR(npx)
+2-bunx prisma migrate dev --name init
+3-bunx prisma generate
+check prisma docs :)
+*/
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
-model User {
-  id    String  @id @default(cuid())
-  email String  @unique
-  name  String
-  age   Int?
+//!! sword model just for applying prisma &Zod
+model Sword{
+  id          String   @id @default(uuid())
+  name        String
+  damage      Int
+  rarity      Rarity
+  isMagic     Boolean  @default(false)
+  enchantments String[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  @@map("swords")
+}
+
+enum Rarity {
+  COMMON
+  UNCOMMON
+  RARE
+  EPIC
+  LEGENDARY
 }
